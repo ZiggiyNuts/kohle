@@ -1,0 +1,62 @@
+/* styles.css */
+body, html {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Verhindert Scrollen durch den Benutzer */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+section {
+  width: 100%;
+  height: 100vh;  /* Jeder Abschnitt nimmt die gesamte Höhe des Viewports ein */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;  /* Macht es möglich, Abschnitte übereinander zu stapeln */
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease; /* Weiche Übergänge */
+  background-size: cover;  /* Deckt den gesamten Abschnitt ab */
+  background-position: center;  /* Bild wird zentriert */
+}
+
+.content {
+  max-width: 800px;
+  color: rgb(255, 255, 255);  /* Textfarbe anpassen für bessere Lesbarkeit */
+}
+
+#section1 {
+  background-image: url('https://www.planet-wissen.de/technik/energie/steinkohlebergbau/introbergbauaufzuggjpg100~_v-gseapremiumxl.jpg');  /* Platzhalterbild */
+}
+
+#section2 {
+  background-image: url('https://cdn.prod.www.spiegel.de/images/8cf2da57-a5f8-4297-b457-462c56f75d8e_w960_r1.778_fpx69.92_fpy55.webp');  /* Platzhalterbild */
+}
+
+#section3 {
+  background-image: url('https://www.desotec.com/uploads/Industry/shutterstock_1452861395.jpg');
+}
+
+#section4 {
+  background-image: url('https://cdn.elektroauto-news.net/wp-content/uploads/2020/02/shutterstock_298797602-1536x1023.jpg');
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+}
