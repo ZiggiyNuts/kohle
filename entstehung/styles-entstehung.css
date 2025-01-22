@@ -35,19 +35,19 @@ section {
 }
 
 #section1 {
-  background-image: url('https://raw.githubusercontent.com/Chaosgamer111/chemie/refs/heads/goofygoobers/2.png');  /* Platzhalterbild */
+  background-image: url('/entstehung/images/2.png');  /* Platzhalterbild */
 }
 
 #section2 {
-  background-image: url('https://raw.githubusercontent.com/Chaosgamer111/chemie/refs/heads/goofygoobers/3.png');  /* Platzhalterbild */
+  background-image: url('/entstehung/images/3.png');  /* Platzhalterbild */
 }
 
 #section3 {
-  background-image: url('https://raw.githubusercontent.com/Chaosgamer111/chemie/refs/heads/goofygoobers/5.png');  /* Platzhalterbild */
+  background-image: url('/entstehung/images/5.png');  /* Platzhalterbild */
 }
 
 #section4 {
-  background-image: url('https://raw.githubusercontent.com/Chaosgamer111/chemie/refs/heads/goofygoobers/6.png');  /* Platzhalterbild */
+  background-image: url('/entstehung/images/6.png');  /* Platzhalterbild */
 }
 
 h1 {
